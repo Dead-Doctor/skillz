@@ -1,0 +1,17 @@
+name: Skillz
+version: '${project.version}'
+main: de.deaddoctor.skillz.Main
+api-version: 1.19
+load: STARTUP
+prefix: Skillz
+authors: [ DeadDoctor ]
+description: Train your skills
+commands:
+  skill:
+    description: Shows your Skill
+    usage: /skill
+  cancel:
+    description: Cancels the current Skill
+    usage: /cancel
+    aliases:
+      - c
